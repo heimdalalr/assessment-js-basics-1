@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-let gitDefinition = "Git is a version control system used to track files to make records of versions of what you have completed. Git also allows easier collaboration since it is documented."
+//let gitDefinition = "Git is a version control system used to track files to make records of versions of what you have completed. Git also allows easier collaboration since it is documented."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@ let gitDefinition = "Git is a version control system used to track files to make
     It should be a string containing your best definition of what GitHub is.
 */
 
-/let gitHubDefinition = "a cloud based hosting service that allows you to manage and save git repositories remotely"
+//let gitHub = "a cloud based hosting service that allows you to manage and save git repositories remotely"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
