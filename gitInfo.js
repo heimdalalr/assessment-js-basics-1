@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "Git is a version control system used to track files to make records of versions of what you have completed. Git also allows easier collaboration since it is documented."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+/let gitHubDefinition = "a cloud based hosting service that allows you to manage and save git repositories remotely"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +33,9 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let Init = "Initializes a new repository that places a project under revision control"
+cd /pathToProject
+git init
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +43,8 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let Clone = "Creates a copy of an existing git repository"
+git clone <repository url>
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +52,8 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+/let Status = "shows the state or status of the working directory and the staged additions"
+git status
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +61,9 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = "moves the changes from the working directory to the staging area as a snapshot to be commited"
+git add fileName.js
+git add directory
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +71,8 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = "takes the staged snapshot and commits it to the project history"
+git commit -am "Meaninging information about what was updated"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +81,5 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = "allows you to move your local branch to another repository such as gitHub"
+git push remoteName BranchName
